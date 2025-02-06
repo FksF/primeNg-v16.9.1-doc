@@ -21,7 +21,7 @@
         "prerender": "ng run primeng:prerender",
         "vercel-build": "npm run build:ssr",
         "apidoc": "node ./api-generator/build-apidoc.ts",
-        "build:prod": "ng build --configuration=production --base-href=/primeNg-v16.9.1-doc"
+        "build:prod": "ng build --configuration production --base-href /primeNg-v16.9.1-doc/"
     },
     "repository": {
         "type": "git",
